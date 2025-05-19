@@ -1,0 +1,95 @@
+
+    /* background-color: #00754a;
+    color: #dfc49d;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;; */
+        /* color: #00754a;
+background-color: #33433d; */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    background-color: white;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+.navbar{
+    width: 100vw; height:10vh; 
+    display: flex; flex-direction: row; justify-content: space-between;
+    box-shadow: 0.2px 0.1px 9px grey;
+}
+.starbucks-svg{
+    height:4rem; width:4rem;
+     display: flex;flex-direction: row;
+ justify-content: center; align-items: center;
+
+}    
+.location-svg{
+
+    margin-left: 3rem; 
+    height:3rem; width:3rem;
+    
+}
+.nav-right{
+    display: flex; flex-direction: row; justify-content: space-around;
+    align-items: center;
+    height: 100%; width: 40%; padding: 0.5rem;
+    font-weight: 700;
+  
+}
+.nav-right:hover{
+     text-decoration: underline;
+
+}
+.nav-left{
+     display: flex; flex-direction: row; justify-content: space-around;
+    align-items: center;
+    height: 100%; width: 40%; padding: 0.5rem;
+
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;align-items: center;
+}
+.sign-in{
+    background-color: white;
+    height:45%; width:15% ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;align-items: center;
+    border: solid black 1px;
+}
+.sign-in:hover{
+    background-color: aliceblue;
+   
+}
+.join-now{
+      background-color: black;
+    height:45%; width:15% ;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;align-items: center;
+    margin-left: 4px;
+    color: white;
+
+}
+.join-now:hover{
+    background-color: grey;
+    
+}
+.brand-logo
+{
+    display: flex; flex-direction: row;
+    justify-content: center; align-items: center;
+    margin-left: 1rem;
+}
+@media  screen and (max-width:1200px) {
+    .nav-left{
+        display: none;
+    }
+    .menu,.rewards,.gift-cards{ display: none;}
+
+}
